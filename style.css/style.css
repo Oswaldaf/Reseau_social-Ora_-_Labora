@@ -1,0 +1,344 @@
+@font-face {
+    font-family: roboto-Regular;
+    src: url(../fonts/Roboto-Regular.ttf);
+
+}
+@font-face {
+    font-family: roboto-light;
+    src: url(../fonts/Roboto-Light.ttf);
+
+}
+@font-face {
+    font-family: roboto-Thin;
+    src: url(../fonts/Roboto-Thin.ttf);
+
+}
+@font-face {
+    font-family: roboto-Black;
+    src: url(../fonts/Roboto-Black.ttf);
+
+}
+@font-face {
+    font-family: roboto-Bold;
+    src: url(../fonts/Roboto-Bold.ttf);
+
+}
+.roboto-Light{
+    font-family: roboto-Light;
+}
+
+.roboto-Black{
+    font-family: roboto-Black;
+}
+
+.roboto-Bold{
+    font-family: roboto-bold;
+}
+.roboto-Thin {
+    font-family: roboto-Thin;
+}
+html,
+body {font-family: roboto-Regular;
+    margin: 0 !important;
+    padding: 0 !important;
+    font-size: 14px;
+    scroll-behavior: smooth;
+}
+/* .menu-bar {
+    margin-left: 200px;
+    margin-right: 200px;
+    display: inline-block;
+}
+.left-items h2 {
+    color: #fff;
+    font-family: roboto-black;
+}
+.left-items h3 {
+    color: #E84855;
+    font-family: roboto-black;
+}
+.menu-items ul{
+    display: inline-block;
+    text-align: righ;
+}
+.menu-items ul li {
+    text-decoration: none;
+    list-style-type: none;
+    color: #E84855;
+    margin: 10px;
+} */
+.menu-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.menu-bar h3 {
+    color: #E84855;
+}
+.menu-bar h2 {
+    color: #fff;
+}
+.menu-items ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.menu-items li {
+    margin: 0 10px;
+}
+.menu-items a {
+    color: #E84855;
+    text-decoration: none;
+    font-family: roboto-Black;
+}
+.menu-items a:hover {
+    text-decoration: underline;
+}
+header {
+    background-image: url(../Images/31.jpeg);
+    background-size: cover;
+    background-position: center;
+
+}
+.devise-text {
+    text-align: center;
+    color: #fff;
+}
+.button-primary {
+    padding: 12px 18px;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 16px;
+    font-family: roboto-Black;
+    background-color: #3185FC;
+    width: 150px;
+    text-align: center;
+    margin-left: 200px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+}
+.social-media-cover {
+    position: fixed;
+    left: 10px;
+    top: 100px;
+    bottom: 100px;
+    width: 40px;
+    display: flex;
+}
+
+.social-media-cover>div {
+    align-self: center;
+    background-color: #e5edf8;
+    border-radius: 4px;
+    padding: 4px;
+}
+.news-section {
+    text-align: center;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    
+}
+.first-news {
+    overflow: hidden;
+    text-align: center;
+    background-color: #3D2C2C;
+    width: 250px;
+    height: 250px;
+    border-radius: 25px;
+
+}
+.first-news img {
+    width: 60%;
+    height: auto;
+}
+.content {
+    padding: 20px;
+    text-align: left;
+}
+.but-plus {
+    font-family: roboto-Black;
+    font-size: 16px;
+    text-align: left;
+}
+
+.content p {
+    color: #32CD32;
+    text-align: left; 
+}
+
+.content p:nth-child(2) {
+    color: #FF1493;
+    text-align: left; 
+}
+
+.content p:nth-child(3) {
+    color: #00BFFF;
+    text-align: left; 
+}
+footer {
+    background-color: #8B0000; 
+    color: black;
+    padding: 20px 0;
+    font-family: roboto-Bold;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+
+.contacts, .newsletter {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.contacts h2, .newsletter h2 {
+    border-bottom: 2px solid #000;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.contacts p {
+    line-height: 1.6;
+    font-size: 20px;
+}
+
+.newsletter form {
+    display: flex;
+    flex-direction: column;
+}
+
+.newsletter input {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: none;
+    box-shadow: inset 0 0 5px #000;
+}
+
+.newsletter button {
+    padding: 12px 18px;
+    border-radius: 50px;
+    color: black;
+    font-size: 16px;
+    font-family: roboto-Black;
+    background-color: #3185FC;
+    width: 130px;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    margin-left: 250px;
+    transition: background-color 0.3s ease;
+}
+
+.newsletter button:hover {
+    background-color: #0056b3;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #7B0000; 
+}
+
+.footer-bottom p {
+    margin: 5px 0;
+}
+.articles{
+    display: flex;
+    gap: 20px;
+    width: 60%;
+    padding-left: 300px;
+}
+.articles div {
+    text-align: left;
+}
+.articles div p, h4 {
+    margin-top: 0;
+}
+.description-text {
+    text-align: center;
+    font-family: roboto-Black;
+    font-size: 16px;
+    width: 80%;
+    padding-left: 150px;
+}
+.section-image {
+    display: flex;
+    text-align: center;
+    gap: 30px;
+}
+.gallery-section {
+    padding-left: 350px;
+}
+.formulaire {
+    background-color: #fff;
+    padding: 20px;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+    width: 300px;
+    padding-left: 500px;
+
+}
+.formulaire h2 {
+    color: #A33333;
+    font-size: 20px;
+    font-family: roboto-Bold;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    font-family: roboto-Bold;
+    font-size: 20px;
+    text-align: left;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+#diplomes {
+    display: flex;
+    justify-content: space-between;
+}
+#diplomes input[type="text"] {
+    width: 48%;
+}
+form input[type="text"],
+form input[type="date"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.1);
+}
+.submit-button {
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    background-color: #3185FC;
+    color: #fff;
+    font-family: roboto-Bold;
+    height: 50px;
+    text-align: center;
+}
+.Aceuil {
+    padding: 12px 18px;
+    border-radius: 50px;
+    color: #E84855;
+    font-size: 16px;
+    font-family: roboto-Black;
+    background-color: #3185FC;
+    width: auto;
+    text-align: center;
+    margin-left: 200px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+}
